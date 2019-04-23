@@ -10,6 +10,8 @@ import java.nio.channels.FileChannel;
 @Controller
 public class HelloController {
 
+   // 你好hello
+
     public static void fileChannelCopy(String path, String newPath) {
 
         FileInputStream fi = null;
