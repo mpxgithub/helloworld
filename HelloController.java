@@ -10,7 +10,9 @@ import java.nio.channels.FileChannel;
 @Controller
 public class HelloController {
 
-  
+  // hhhhhhh
+///nnnnnnnn
+//jjjjjjj
 
     public static void fileChannelCopy1(String sourcePath, String newPath) {
 
@@ -39,6 +41,7 @@ public class HelloController {
 
     }
 
+<<<<<<< HEAD
     public static void copy1(String sourcePath, String newPath) {
 
         InputStream inputStream = null;
@@ -63,4 +66,7 @@ public class HelloController {
         }
 
     }
+=======
+    
+>>>>>>> hello
 }
