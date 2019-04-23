@@ -12,7 +12,7 @@ public class HelloController {
 
   
 
-    public static void fileChannelCopy1(String path, String newPath) {
+    public static void fileChannelCopy1(String sourcePath, String newPath) {
 
         FileInputStream fi = null;
         FileOutputStream fo = null;
@@ -39,7 +39,7 @@ public class HelloController {
 
     }
 
-    public static void copy1(String path, String newPath) {
+    public static void copy1(String sourcePath, String newPath) {
 
         InputStream inputStream = null;
         OutputStream outputStream = null;
